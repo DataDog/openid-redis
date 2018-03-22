@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '1.1+dd.2'
+version = '1.1+dd.3'
 
 setup(name='openid-redis',
       version=version,
