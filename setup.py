@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '1.1+dd.3'
+version = '1.1+dd.4'
 
 setup(name='openid-redis',
       version=version,
@@ -12,7 +12,9 @@ setup(name='openid-redis',
         "Development Status :: 6 - Mature",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
-        "Topic :: Internet :: WWW/HTTP"
+        "Topic :: Internet :: WWW/HTTP",
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 3'
       ],
       keywords='openid redis',
       author='Ben Bangert',

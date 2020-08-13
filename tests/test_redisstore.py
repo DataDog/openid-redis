@@ -6,6 +6,7 @@ Copyright JanRain
 Apache Software License
 
 """
+from __future__ import print_function
 
 import unittest
 import string

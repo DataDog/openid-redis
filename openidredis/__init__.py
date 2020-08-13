@@ -7,6 +7,7 @@ python-openid FileStore code is Copyright JanRain, under the Apache Software
 License.
 
 """
+from past.builtins import cmp
 import logging
 import string
 import time
